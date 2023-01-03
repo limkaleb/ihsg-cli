@@ -1,4 +1,4 @@
-name: IHSG CLI CI/CD
+name: IHSG STOCK INFO CI/CD
 
 on:
   push:

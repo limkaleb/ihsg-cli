@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-  name='ihsgcli',
+  name='ihsgstockinfo',
   packages=find_packages(),
   email='limkaleb@gmail.com',
   author='Lim Kaleb',
@@ -14,6 +14,6 @@ setup(
   description='''The description of the package''',
   entry_points='''
   [console_scripts]
-  ihsg=ihsgcli:ihsgcli
+  ihsgstockinfo=ihsgstockinfo:ihsgstockinfo
   '''
 )

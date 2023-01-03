@@ -11,7 +11,7 @@ FIELDS = {
 }
 
 @click.group()
-def ihsgcli():
+def ihsgstockinfo():
   '''
   IHSG Key Stats
   '''
@@ -73,4 +73,4 @@ def get_stock_info(stock, resource):
 get_group.add_command(get_stock_price)
 get_group.add_command(get_stock_info)
 
-ihsgcli.add_command(get_group)
+ihsgstockinfo.add_command(get_group)
