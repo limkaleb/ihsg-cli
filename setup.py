@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-  name='ihsg-cli',
+  name='ihsgcli',
   packages=find_packages(),
   email='limkaleb@gmail.com',
   author='Lim Kaleb',

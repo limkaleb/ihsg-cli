@@ -1,2 +1,2 @@
-# ihsg-cli
+# ihsgcli
 Get Indonesia stock info
