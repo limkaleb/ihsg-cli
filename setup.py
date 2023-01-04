@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-  name='ihsginfo',
+  name='ihsginfo-cli',
   packages=find_packages(),
   email='limkaleb@gmail.com',
   author='Lim Kaleb',
@@ -10,10 +10,10 @@ setup(
     'yfinance',
     'colorama'
   ],
-  version='0.0.1',
+  version='0.0.2',
   description='''The description of the package''',
   entry_points='''
   [console_scripts]
-  ihsginfo=ihsginfocli:ihsginfo
+  ihsginfo=ihsginfocli:cli
   '''
 )
