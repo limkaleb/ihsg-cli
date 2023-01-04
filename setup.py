@@ -10,7 +10,7 @@ setup(
     'yfinance',
     'colorama'
   ],
-  version='0.0.0',
+  version='0.0.1',
   description='''The description of the package''',
   entry_points='''
   [console_scripts]
