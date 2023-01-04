@@ -74,3 +74,6 @@ get_group.add_command(get_stock_price)
 get_group.add_command(get_stock_info)
 
 ihsgstockinfo.add_command(get_group)
+
+if __name__ == '__main__':
+  ihsgstockinfo()
