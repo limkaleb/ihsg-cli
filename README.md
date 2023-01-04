@@ -1,2 +1,2 @@
-# ihsgstockinfo
+# ihsginfo
 Get Indonesia stock info
