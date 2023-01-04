@@ -14,6 +14,6 @@ setup(
   description='''The description of the package''',
   entry_points='''
   [console_scripts]
-  ihsginfo=ihsginfo:ihsginfo
+  ihsginfo=ihsginfocli:ihsginfo
   '''
 )

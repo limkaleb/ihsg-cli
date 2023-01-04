@@ -1,7 +1,7 @@
 from click.testing import CliRunner
 
 import unittest
-from ihsginfo import ihsginfo
+from ihsginfocli import ihsginfo
 
 class Test_IhsgGetInfoTest(unittest.TestCase):
   def test_increment(self):
