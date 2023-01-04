@@ -62,7 +62,7 @@ def get_stock_info(stock, resource):
     else:
       result[fk] = tick.info[fk] if type(tick.info[fk]) is str else round(tick.info[fk], 2)
 
-  click.secho(stock.upper(), bold=True, bg='yellow')
+  click.secho(stock.upper(), bold=True)
   for i in result.keys():
     click.echo(FIELDS[i] + ': ', nl=False)
     click.secho(f'{result[i]}', fg='green')
